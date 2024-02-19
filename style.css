@@ -69,9 +69,15 @@ body {
     align-self: stretch;
 }
 
+.top_section img {
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+}
+
 .sign_up {
-    background-color: #3882F6;
-    border-color: #3882F6;
+    background-color: green;
+    border-color: green;
     color: #F9FAF8;
     padding: 4px 24px;
     border-radius: 6px;
@@ -87,7 +93,7 @@ ul {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border: 4px solid #3882F6;
+    border: 4px solid grey;
     border-radius: 12px;
     margin: 5px 20px 0px 20px;
 }
@@ -162,8 +168,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3882F6;
-    border-radius: 4px;
+    background-color: black;
+    border-radius: 12px;
 }
 
 .bottom_section {
@@ -182,7 +188,7 @@ ul {
 .sign_up_2 {
     margin-right: 24px;
     color: #F9FAF8;
-    background-color: #3882F6;
+    background-color: black;
     height: 32px;
     padding: 0 24px;
     border: 2px solid #F9FAF8;
