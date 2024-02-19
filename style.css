@@ -73,6 +73,7 @@ body {
     width: 400px;
     height: 250px;
     border-radius: 8px;
+    overflow-clip-margin: content-box;
 }
 
 .sign_up {
